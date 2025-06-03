@@ -1,0 +1,39 @@
+.task_container {
+	display: flex;
+	align-items: center;
+	height: 40px;
+	text-align: left;
+	padding: 0 10px;
+	border-bottom: 1px solid #efefef;
+	border-left: 1px solid #efefef;
+	border-right: 1px solid #efefef;
+
+	&:hover {
+		background-color: #fcfcfc;
+	}
+}
+
+.completed_task {
+	text-decoration: line-through;
+	color: #e6e6e6;
+}
+
+.task_text {
+	line-height: 40px;
+	margin-left: 20px;
+	user-select: none;
+}
+
+.check_mark_circle {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background-color: white;
+	border: 1px solid #cccccc;
+	border-radius: 24px;
+	cursor: pointer;
+
+	&:hover {
+		border: 1px solid #aaaaaa;
+	}
+}

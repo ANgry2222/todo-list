@@ -1,0 +1,19 @@
+.menu_button {
+	height: 100%;
+	padding: 0 8px;
+	background: none;
+	border: none;
+	border-radius: 4px;
+	user-select: none;
+	font-family: Montserrat;
+	font-size: 11px;
+
+	&:hover {
+		outline: 2px solid #e9dad9;
+		cursor: pointer;
+	}
+}
+
+.active_state {
+	outline: 1.5px solid #e9dad9;
+}
